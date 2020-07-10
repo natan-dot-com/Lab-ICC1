@@ -59,7 +59,7 @@ void timeInJupiter(unsigned long long **planet_time, unsigned long long sec) {
 
 int main(int argc, char *argv[]) {
     unsigned long long  sec;
-	unsigned long long *planet_time;
+    unsigned long long *planet_time;
     char *planet = (char *) calloc(12, sizeof(char));
     scanf("%llu %s", &sec, planet);
 
